@@ -23,8 +23,8 @@ Bot.sendInlineKeyboard(
       }
     ],
     [
-      { title: "🟢 BUY TOKEN", command: "/buy" },
-      { title: " 🔴 SELL TOKEN", command: "/buy" },
+      [{ title: "🟢 BUY TOKEN", command: "/buy" }],
+      [{ title: " 🔴 SELL TOKEN", command: "/buy" }],
     [{ title: "HELP", command: "/help" }],
     [{ title: "CLOSE", command: "/close" }]
   ],
