@@ -1,5 +1,5 @@
 BBGroupControlerBot
-Bot :- @BBGroupControlerBot
+Bot :- @YuamHelperBot
 
 What it is?
 A simple group controler bot made up in Bots.Business app
@@ -13,4 +13,4 @@ Paste bellow link
 Click on import button
 Done bot was successfully imported, for conformation check command section.
 
-Link : https://github.com/AjinkyaBots/BBGroupControlerBot
+Link : https://github.com/Yusranamrullah/BotSniper
