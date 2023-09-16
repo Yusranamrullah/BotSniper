@@ -18,7 +18,7 @@ if (newJoined.length > 0) {
   let fname = newJoined[0].first_name
   Bot.sendInlineKeyboard(
     [
-      [{ title: "Hᴇʟᴘ", command: "/help" }]
+      [{ title: "HELP", command: "/help" }]
     ],
     "👋🏻 Hi [" +
       fname +
