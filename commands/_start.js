@@ -19,8 +19,7 @@ Bot.sendInlineKeyboard(
   [
     [
       {
-        title: "YUAM SNIPE",
-        url: "https://t.me/" + bot.name + "?startgroup=start"
+        title: "BALANCE", command: "/balance""
       }
     ],
     [
@@ -35,7 +34,7 @@ Bot.sendInlineKeyboard(
     user.telegramid +
     ")!\n\n[YUAM SNIPER](https://t.me/" +
     bot.name +
-    ") is the most complete Bot to help you manage your groups easily and safely!\n\n👉🏻 Add me in a Supergroup and promote me as Admin to let me get in action!"
+    ")Fast Trade Like a Pro"
 )
 
 Api.deleteMessage({ chat_id: chat.chatid, message_id: request.message_id })
