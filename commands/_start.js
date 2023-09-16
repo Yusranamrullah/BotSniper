@@ -12,29 +12,28 @@
   <<KEYBOARD
 
   KEYBOARD
-  aliases: /start@grouphelpdlbot
+  aliases: /start@YuamHelperBot
 CMD*/
 
 Bot.sendInlineKeyboard(
   [
     [
       {
-        title: "➕ Aᴅᴅ Mᴇ Tᴏ A Gʀᴏᴜᴘ ➕",
+        title: "YUAM SNIPE",
         url: "https://t.me/" + bot.name + "?startgroup=start"
       }
     ],
     [
-      { title: "Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url: "https://t.me/ajinkyabotz" },
-      { title: "Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url: "https://t.me/botschats" }
-    ],
-    [{ title: "Hᴇʟᴘ", command: "/help" }],
-    [{ title: "🔐 Cʟᴏsᴇ", command: "/close" }]
+      { title: "🟢 BUY TOKEN", command: "/buy" },
+      { title: " 🔴 SELL TOKEN", command: "/buy" },
+    [{ title: "HELP", command: "/help" }],
+    [{ title: "CLOSE", command: "/close" }]
   ],
   "👋🏻 Hi [" +
     user.first_name +
     "](tg://user?id=" +
     user.telegramid +
-    ")!\n\n[BB Group Controler Bot](https://t.me/" +
+    ")!\n\n[YUAM SNIPER](https://t.me/" +
     bot.name +
     ") is the most complete Bot to help you manage your groups easily and safely!\n\n👉🏻 Add me in a Supergroup and promote me as Admin to let me get in action!"
 )
