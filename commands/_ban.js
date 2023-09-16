@@ -12,7 +12,7 @@
   <<KEYBOARD
 
   KEYBOARD
-  aliases: /ban@grouphelpdlbot
+  aliases: /ban@YuamHelperBot
 CMD*/
 
 if (request.chat.type == "private") {
