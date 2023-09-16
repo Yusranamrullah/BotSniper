@@ -12,7 +12,7 @@
   <<KEYBOARD
 
   KEYBOARD
-  aliases: /addadmin@grouphelpdlbot
+  aliases: /addadmin@YuamHelperBot
 CMD*/
 
 if (request.chat.type == "private") {
